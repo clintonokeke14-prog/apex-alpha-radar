@@ -1,0 +1,21 @@
+==================================================
+APEX ALPHA TERMINAL - QUICKSTART DEPLOYMENT
+==================================================
+
+1. INSTALL PYTHON
+   Ensure Python 3.10+ is installed and added to PATH.
+
+2. INSTALL DEPENDENCIES
+   Open terminal inside this folder and run:
+   pip install -r requirements.txt
+
+3. CONFIGURE CREDENTIALS
+   - Rename `.env.example` to `.env`
+   - Paste your Telegram Bot Token, Helius RPC Key, and Wallet addresses.
+
+4. LAUNCH RADAR
+   Run:
+   python main.py
+
+The bot will initialize surveillance across all target wallets and stream 
+1-click execution cards directly to your designated Telegram channel.
